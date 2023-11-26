@@ -139,6 +139,7 @@
             clinfo
             zlib
             cmake
+            pkg-config
           ];
           # ++ gpu_libs;
           LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
